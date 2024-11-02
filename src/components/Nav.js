@@ -8,7 +8,7 @@ const Nav = () => {
         setMenuOpen(!menuOpen)
     }
     return (
-        <nav className={'navbar ${menuOpen ? "open" : ""}'}>
+        <nav className={`navbar ${menuOpen ? "open" : ""}`}>
             <a href='/' className='logo'>
                 <img src={logo} alt='logo' />
             </a>
