@@ -67,7 +67,7 @@ const Booking = ({ availableTimes, updateTimes, submitForm }) => {
                 </label>
 
                 {/* Submit Button */}
-                <button type="submit" disabled={!selectedTime}>Book Now</button>
+                <button className="btnReceive" type="submit" disabled={!selectedTime}>Book Now</button>
             </form>
         </div>
     );
